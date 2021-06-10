@@ -55,7 +55,6 @@ resource "aws_instance" "F5" {
     network_interface_id = aws_network_interface.BIG-IP_1-2_Private.id
     device_index         = 2
   }
-
 }
 
 resource "local_file" "test_user_debug" {
